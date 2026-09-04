@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{%block conteudo%}
+
+{% for i in buscar_resenha %}
+
+    <ul class="card">
+        <li>{{i['texto']}}</li>
+    </ul>
+
+{% endfor %}
+
+{%endblock%}
