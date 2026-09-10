@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+{%for i in livros %}
+    <p>{{i['titulo']}}</p>
+    <p>{{i['autor']}}</p>
+    <p>{{i['ano']}}</p>
+    <p>{{i['genero']}}</p>
+
+{%endfor%}
+
+
+{% endblock %}

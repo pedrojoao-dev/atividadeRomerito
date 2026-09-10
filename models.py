@@ -1,3 +1,12 @@
+# models.py — Camada Model da aplicação
+# ============================================================
+# ARQUIVO FORNECIDO PELO PROFESSOR — não altere nada aqui.
+# Sua tarefa é USAR estes dados e funções a partir dos blueprints.
+#
+# Responsabilidade desta camada (Model):
+#   - Guardar os dados do sistema (listas de dicionários)
+#   - Oferecer funções de busca para os Controllers (routes.py) usar
+
 usuarios = [
     {"id": 1, "nome": "admin", "senha": "1234"},
     {"id": 2, "nome": "leitor", "senha": "abcd"},
